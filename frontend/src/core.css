@@ -1,0 +1,73 @@
+/* core.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: rgb(92,223,229);
+    background: linear-gradient(90deg, rgba(92,223,229,1) 0%, rgba(0,74,173,1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  #holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin-right:300px;
+
+  }
+  
+  input[type='file'] {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .right-image {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    width: 500px; /* Adjust the size as needed */
+    height: 500px; /* Adjust the size as needed */
+    margin: 20px; /* Adjust the margin as needed */
+  }

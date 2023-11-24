@@ -1,0 +1,24 @@
+{
+  "name": "seprojectbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.12.0",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1",
+    "python-shell": "^5.0.0",
+    "socks": "^2.7.1"
+  }
+}
